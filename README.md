@@ -18,6 +18,8 @@ select * from public.cars;
 
 ![1671900442590](image/README/1671900442590.png)
 
+![1671900653879](image/README/1671900653879.png)
+
 Unfortunately IntelliJ free version doesn't support Cassandra as of today.
 
 ## Use Cassandra with Docker in Mac
