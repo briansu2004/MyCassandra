@@ -6,9 +6,9 @@ My Cassandra
 
 `docker compose up`
 
-`docker exec -it rockthejvm-sparkstreaming-cassandra cqlsh`
+### CLI - CQL Shell
 
-CLI
+`docker exec -it rockthejvm-sparkstreaming-cassandra cqlsh`
 
 ```dos
 create keyspace public with replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
@@ -21,6 +21,21 @@ select * from public.cars;
 ![1671900653879](image/README/1671900653879.png)
 
 Unfortunately IntelliJ free version doesn't support Cassandra as of today.
+
+### DataStax Studio
+
+It needs Java 8.
+
+```dos
+C:\Apps\datastax-studio-6.8.21\bin>server.bat
+Starting Studio. This may take a few minutes. You will be notified here when Studio is ready.
+
+
+Looking for Java in C:\apps\jdk-11.0.16.1\
+Java version located 11.0
+ErrorCodes: Studio requires Java 8. Java version: 11.0 is not supported.
+done.
+```
 
 ## Use Cassandra with Docker in Mac
 
