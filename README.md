@@ -22,7 +22,9 @@ select * from public.cars;
 
 Unfortunately IntelliJ free version doesn't support Cassandra as of today.
 
-### DataStax Studio
+### DataStax
+
+#### DataStax Studio
 
 It needs Java 8.
 
@@ -36,6 +38,12 @@ Java version located 11.0
 ErrorCodes: Studio requires Java 8. Java version: 11.0 is not supported.
 done.
 ```
+
+#### DataStax Desktop
+
+Can't work with Docker.
+
+![1671902890240](image/README/1671902890240.png)
 
 ## Use Cassandra with Docker in Mac
 
